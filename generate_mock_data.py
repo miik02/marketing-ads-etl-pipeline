@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import random
 
 
-def generate_marketing_data(range_time = [datetime(2026, 9, 1, 0, 0), datetime(2026, 9, 30, 0, 0)], crt_range = [0.01, 0.03], conversion_rate):
+def generate_marketing_data(range_time = [datetime(2026, 9, 1, 0, 0), datetime(2026, 9, 30, 0, 0)]):
 
     # first we define the possible campaigns name
     campaigns_name = ["Promo_otoño_26", "Lanzamiento_App", "Retargeting", "Verano_25"]
